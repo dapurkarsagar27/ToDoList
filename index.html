@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200;300;400;500;600;700;800&family=Pattaya&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="navbar">
+            <div class="logo">
+                <h1>Daily To Do</h1>
+            </div>
+
+            <nav class="bar">
+                <input type="search" name="search" id="box1">
+                <input type="submit" name="submit" id="box2">
+            </nav>
+        </div>
+
+        <div class="mainpage">
+            <div class="todolist">
+                <h3>Set Your To Do List Here!</h3>
+                <p id="title1">Title</p>
+                <input type="text" name="todo" id="todolist" class="boxes"><br>
+                <p id="title2">Description</p>
+                <input type="text" name="description" id="description" class="boxes"><br>
+                <input type="submit" name="submit" value="Add To List" id="add">
+            </div>
+        </div>
+
+        <div class="displayList">
+            <h3>Your To Do List!</h3>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Sr No.</th>
+                        <th>Item Title</th>
+                        <th>Title Description</th>
+                        <th>Remark</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tablebody">
+                    <tr>
+                        <td>1</td>
+                        <td>Assignment 1</td>
+                        <td>Deadline is today only</td>
+                        <td><button id="donebtn">Done!</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

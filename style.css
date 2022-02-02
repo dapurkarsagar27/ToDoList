@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Newsreader', serif;
+    /* font-family: 'Pattaya', sans-serif; */
+}
+
+.maindiv{
+    width: 100%;
+    height: auto;
+    background-color: rgb(120, 177, 194);
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.bar{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.bar #box1{
+    padding: 8px 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(213, 231, 243);
+}
+
+.bar #box2{
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-left: 8px;
+    border-radius: 5px;
+    border-color: rgb(3, 70, 255);
+    background-color: rgb(9, 68, 231);
+    color: white;
+}
+
+/* ------------Main Page------------ */
+
+.mainpage{
+    width: 100%;
+    height: 51.5vh;
+}
+
+.todolist{
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: rgb(25, 133, 184) ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 78px;
+    border-radius: 5px;
+}
+
+.todolist h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(192, 220, 247);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.todolist #title1{
+    font-size: 15px;
+    margin-right: 530px;
+    letter-spacing: 2px;
+    color: rgb(198, 234, 243);
+}
+
+.todolist #title2{
+    font-size: 15px;
+    margin-right: 470px;
+    letter-spacing: 2px;
+    color: rgb(198, 234, 243);
+}
+
+.todolist .boxes{
+    width: 70%;
+    padding: 9px 10px;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(213, 231, 243);
+}
+
+.todolist #add{
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+    border-color: rgb(3, 70, 255);
+    background-color: rgb(9, 68, 231);
+    color: white;
+}
+
+/* --------------TO Do Table------------- */
+
+.displayList{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+    background-color: rgb(48, 118, 150);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.displayList table{
+    width: 100%;
+    height: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-color: rgb(141, 217, 247);
+    border-width: 1.5px;
+    font-size: 19px;
+}
+
+.displayList h3{
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(192, 220, 247);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.displayList table td{
+    padding: 10px;
+}
+
+.displayList table th{
+    padding: 10px;
+}
+
+.displayList #donebtn{
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border-color: rgb(3, 70, 255);
+    background-color: rgb(9, 68, 231);
+    color: white;
+}
